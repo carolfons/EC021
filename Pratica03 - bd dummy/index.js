@@ -3,7 +3,7 @@ const restify = require('restify');
 
 //Criando o servidor
 const server = restify.createServer({
-  name: 'Prática 02'
+  name: 'Prática 03'
 })
 
 //configurando o servidor para receber requests no formato json

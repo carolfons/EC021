@@ -111,9 +111,7 @@ function update(req, res, next) {
 
 
 function deletar(req, res, next) {
-
   res.setHeader('content-type', 'application/json');
-
   let aluno = {
     id: req.body.id,
   };
